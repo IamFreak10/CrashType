@@ -1,0 +1,16 @@
+{
+  "name": "typescript-mastery-crash-course",
+  "version": "1.0.0",
+  "description": "Comprehensive TypeScript Foundation from Basics to Nest.js and Next.js Mastery",
+  "main": "index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test:01": "npx tsx 01-basics-and-primitives/01-primitive-types.ts",
+    "test:all": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
